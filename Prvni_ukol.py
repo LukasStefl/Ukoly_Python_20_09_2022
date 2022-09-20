@@ -1,14 +1,12 @@
-i = 0
-j = 1
-prvni_cislo = 0
-druhe_cislo = 0
-while (i<=10):
-    print(prvni_cislo)
-    i += 1;
-    prvni_cislo += 1;
-
-while (j<=10):
+a = 0
+sum = 0
+j = 0
+for i in range (0, 10):
+    print(sum)
+    sum += 1
     
-    j += 1;
-    druhe_cislo += 1;
-    print(druhe_cislo)
+    a = i
+    a -= 1
+    print('', a)
+    j = sum + a - 1
+    print(' ',j)
